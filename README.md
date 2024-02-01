@@ -7,8 +7,10 @@ Assignment for class HY-573, Optimization Methods
 
 Make sure you have Python installed on your system. 
 
-#### Install dependencies
+```bash
+# Install dependencies
 pip install -r requirements.txt
+```
 
 ### 2. Run the Code
 
@@ -18,15 +20,19 @@ Open the denoising_sp_signals.ipynb notebook using Jupyter or Google Colab.
 Option 2: Run the Training and Testing Scripts
 For training dictionaries and testing:
 
-#### Train dictionaries
+```bash
+# Train dictionaries
 python train_dicts.py
 
-#### Test with Lasso
+# Test with Lasso
 python test_lasso.py
 
-#### Test with Elastic Net
+# Test with Elastic Net
 python test_elastic_net.py
 
-#### Iterative testing for best parameters with Elastic Net
+# Iterative testing for best parameters with Elastic Net
 python iterative_testing_elastic_net.py
+```
+
+## Process Explanation
 

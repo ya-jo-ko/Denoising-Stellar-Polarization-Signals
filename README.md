@@ -1,6 +1,9 @@
 # Denoising Stellar Polarization Signals
 Assignment for class HY-573, Optimization Methods
 
+## Process Explanation
+Stuff to be added.
+
 ## How to Run the Code
 
 ### 1. Set Up Environment
@@ -33,6 +36,4 @@ python test_elastic_net.py
 # Iterative testing for best parameters with Elastic Net
 python iterative_testing_elastic_net.py
 ```
-
-## Process Explanation
 
